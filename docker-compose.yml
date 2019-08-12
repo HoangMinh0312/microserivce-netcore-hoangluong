@@ -1,0 +1,50 @@
+version: '3.4'
+
+services:
+   
+   webapi2:
+     image: dockerwebapi2:latest
+     build:
+       context: .
+       dockerfile: WebApplication2/Dockerfile
+     ports:
+          - "8002:80"
+     depends_on:
+      - db
+      - rabbitmq
+   
+   webapi1:
+     image: dockerwebapi1:latest
+     build:
+       context: .
+       dockerfile: WebApplication1/Dockerfile
+     ports:
+          - "8001:80"
+     depends_on:
+      - db
+      - rabbitmq
+
+   db:
+     image: microsoft/mssql-server-linux:2017-latest  
+     hostname: 'sqlserver'  
+     environment:  
+        ACCEPT_EULA: Y  
+        SA_PASSWORD: "H#ng1234"  
+     volumes:  
+        - ./data/mssql:/var/opt/mssql3  
+     ports:  
+        - '5433:1433'  
+    
+   rabbitmq:
+     image: rabbitmq:3-management-alpine
+
+   gateway3:
+     image: gateway3:latest
+     build:
+       context: .
+       dockerfile: GateWay/Dockerfile
+     ports:
+          - "8003:80"  
+     depends_on:
+      - webapi1
+      - webapi2

@@ -1,0 +1,32 @@
+{
+  "ReRoutes": [
+    {
+      "DownstreamPathTemplate": "/api/product/",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "webapi2",
+          "Port": 80
+        }
+      ],
+      "UpstreamPathTemplate": "/api/product/",
+      "UpstreamHttpMethod": [ "POST", "PUT", "GET" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/product/",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "webapi1",
+          "Port": 80
+        }
+      ],
+      "UpstreamPathTemplate": "/api/product2/",
+      "UpstreamHttpMethod": [ "POST", "PUT", "GET" ]     
+    }
+
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "http://localhost:52793"
+  }
+}

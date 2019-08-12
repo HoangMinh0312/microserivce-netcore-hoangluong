@@ -1,0 +1,14 @@
+C:\Users\hoang.luong\source\repos\WebApplication2\GateWay\bin\Debug\netcoreapp2.1\GateWay.deps.json
+C:\Users\hoang.luong\source\repos\WebApplication2\GateWay\bin\Debug\netcoreapp2.1\GateWay.runtimeconfig.json
+C:\Users\hoang.luong\source\repos\WebApplication2\GateWay\bin\Debug\netcoreapp2.1\GateWay.runtimeconfig.dev.json
+C:\Users\hoang.luong\source\repos\WebApplication2\GateWay\bin\Debug\netcoreapp2.1\GateWay.dll
+C:\Users\hoang.luong\source\repos\WebApplication2\GateWay\bin\Debug\netcoreapp2.1\GateWay.pdb
+C:\Users\hoang.luong\source\repos\WebApplication2\GateWay\obj\Debug\netcoreapp2.1\GateWay.csproj.CoreCompileInputs.cache
+C:\Users\hoang.luong\source\repos\WebApplication2\GateWay\obj\Debug\netcoreapp2.1\GateWay.AssemblyInfoInputs.cache
+C:\Users\hoang.luong\source\repos\WebApplication2\GateWay\obj\Debug\netcoreapp2.1\GateWay.AssemblyInfo.cs
+C:\Users\hoang.luong\source\repos\WebApplication2\GateWay\obj\Debug\netcoreapp2.1\GateWay.dll
+C:\Users\hoang.luong\source\repos\WebApplication2\GateWay\obj\Debug\netcoreapp2.1\GateWay.pdb
+C:\Users\hoang.luong\source\repos\WebApplication2\GateWay\obj\Debug\netcoreapp2.1\GateWay.csprojAssemblyReference.cache
+C:\Users\hoang.luong\source\repos\WebApplication2\GateWay\obj\Debug\netcoreapp2.1\GateWay.RazorAssemblyInfo.cache
+C:\Users\hoang.luong\source\repos\WebApplication2\GateWay\obj\Debug\netcoreapp2.1\GateWay.RazorAssemblyInfo.cs
+C:\Users\hoang.luong\source\repos\WebApplication2\GateWay\obj\Debug\netcoreapp2.1\GateWay.RazorTargetAssemblyInfo.cache
